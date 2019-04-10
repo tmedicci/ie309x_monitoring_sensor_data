@@ -20,6 +20,6 @@ As características da coisa que serão avaliadas são o consumo energético e o
 
 ### Regras do Negócio
 A tomada de decisão é realizada por base de perguntas sobre os dados coletados:
-a.	Deve-se desligar o ar-condicionado e ligar o trocador de calor adiabático?
-b.	Quanto tempo de uso de cada aparelho?
-c.	Quanto já gerou de economia?
+a. Deve-se desligar o ar-condicionado e ligar o trocador de calor adiabático?
+b. Quanto tempo de uso de cada aparelho?
+c. Quanto já gerou de economia?
