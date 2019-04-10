@@ -68,16 +68,16 @@ As especificações dos sensores de temperatura e umidade variam de acordo com o
 
 ## Cronograma
 O cronograma compreende as seguintes etapas do desenvolvimento:
-I. Avaliação das soluções open-source e suas variáveis.
-II. Determinação das informações para tomada de decisão.
-III. Desenvolvimento da IHM.
-IV. Criação de Registro e Histórico de informação.
-V. Adição de elementos de comparação e previsão de dados.
-VI. Implementação no hardware Raspberry Pi.
-VII. Desenvolvimento do gateway IoT (objetivo secundário).
-VIII. Aquisição de dados reais (objetivo extra).
-IX. Teste Final e Documentação
-X. Apresentação.
+* I. Avaliação das soluções open-source e suas variáveis.
+* II. Determinação das informações para tomada de decisão.
+* III. Desenvolvimento da IHM.
+* IV. Criação de Registro e Histórico de informação.
+* V. Adição de elementos de comparação e previsão de dados.
+* VI. Implementação no hardware Raspberry Pi.
+* VII. Desenvolvimento do gateway IoT (objetivo secundário).
+* VIII. Aquisição de dados reais (objetivo extra).
+* IX. Teste Final e Documentação
+* X. Apresentação.
 
 Tabela 1 - Cronograma conforme as quintas-feiras úteis do período letivo.
 ![alt text](./images/cronograma.png)
