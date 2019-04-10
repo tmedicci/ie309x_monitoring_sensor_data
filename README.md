@@ -79,5 +79,5 @@ VIII. Aquisição de dados reais (objetivo extra).
 IX. Teste Final e Documentação
 X. Apresentação.
 
-Tabela 2 - Cronograma conforme as quintas-feiras úteis do período letivo.
+Tabela 1 - Cronograma conforme as quintas-feiras úteis do período letivo.
 ![alt text](./images/cronograma.png)
