@@ -65,3 +65,19 @@ As especificações dos sensores de temperatura e umidade variam de acordo com o
 * DHT 22                            R$ 34,90 
 
 É importante destacar que boa parte destes recursos já estão disponíveis para serem utilizados pelos alunos ao longo do projeto em caráter de empréstimo.
+
+## Cronograma
+O cronograma compreende as seguintes etapas do desenvolvimento:
+I. Avaliação das soluções open-source e suas variáveis.
+II. Determinação das informações para tomada de decisão.
+III. Desenvolvimento da IHM.
+IV. Criação de Registro e Histórico de informação.
+V. Adição de elementos de comparação e previsão de dados.
+VI. Implementação no hardware Raspberry Pi.
+VII. Desenvolvimento do gateway IoT (objetivo secundário).
+VIII. Aquisição de dados reais (objetivo extra).
+IX. Teste Final e Documentação
+X. Apresentação.
+
+Tabela 2 - Cronograma conforme as quintas-feiras úteis do período letivo.
+![alt text](./images/cronograma.png)
