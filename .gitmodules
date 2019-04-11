@@ -1,0 +1,6 @@
+[submodule "Prometheus/client_golang"]
+	path = Prometheus/client_golang
+	url = https://github.com/prometheus/client_golang.git
+[submodule "Prometheus/prometheus_tutorial"]
+	path = Prometheus/prometheus_tutorial
+	url = https://github.com/evandroferreiras/prometheus_tutorial.git
