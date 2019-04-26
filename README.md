@@ -80,4 +80,20 @@ O cronograma compreende as seguintes etapas do desenvolvimento:
 * X. Apresentação.
 
 Tabela 1 - Cronograma conforme as quintas-feiras úteis do período letivo.
-![alt text](./images/cronograma.png)
+
+|      | 28/03 | 04/04 | 11/04 | 25/04 | 02/05 | 09/05 | 16/05 | 23/05 | 30/05 | 06/06 | 13/06 | 27/06 |
+|------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
+| I    |   X   |   X   |   X   |       |       |       |       |       |       |       |       |       |
+| II   |   X   |   X   |   X   |   X   |       |       |       |       |       |       |       |       |
+| III  |       |   X   |   X   |   X   |   X   |       |       |       |       |       |       |       |
+| IV   |       |       |       |   X   |   X   |   X   |       |       |       |       |       |       |
+| V    |       |       |       |       |   X   |   X   |   X   |   X   |       |       |       |       |
+| VI   |       |       |       |       |       |   X   |   X   |   X   |   X   |   X   |       |       |
+| VII  |       |       |       |       |       |       |       |   X   |   X   |   X   |       |       |
+| VIII |       |       |       |       |       |       |       |       |       |   X   |   X   |       |
+| IX   |       |       |       |       |       |       |       |       |       |       |   X   |   X   |
+| X    |       |       |       |       |       |       |       |       |       |       |       |   X   |
+
+X: Planejado.
+
+XX: Executado.
