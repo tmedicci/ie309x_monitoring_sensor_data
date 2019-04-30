@@ -29,7 +29,7 @@ zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbi
 ## Etapa 6: Configurar a base de dados para o Zabbix server
 sudo nano /etc/zabbix/zabbix_server.conf
 
-### Alterar o seguinte item 
+### Alterar o seguinte item, lembrando que não deve haver \# no início pois representa comentário.  
 DBPassword=adicione_a_senha
 
 ## Etapa 7: Reiniciar o serviço
