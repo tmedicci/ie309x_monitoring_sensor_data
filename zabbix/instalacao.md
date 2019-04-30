@@ -19,7 +19,7 @@ sudo mysql -u root -p
 
 mysql> create database zabbix character set utf8 collate utf8_bin;
 
-mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'crie uma senha';
+mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'crie_uma_senha';
 
 mysql> quit;
 
@@ -30,7 +30,7 @@ zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbi
 sudo nano /etc/zabbix/zabbix_server.conf
 
 ### Alterar o seguinte item 
-DBPassword=adiciona a senha
+DBPassword=adicione_a_senha
 
 ## Etapa 7: Reiniciar o serviço
 
@@ -51,9 +51,10 @@ sudo systemctl enable zabbix-server zabbix-agent apache2
 ### Anotar o ip do servidor
 ifconfig
 ### Abrir o navegador e digitar
-http://ip anotado/zabbix
+http://ip_anotado/zabbix
 ### seguir o tutorial
 https://www.zabbix.com/documentation/4.2/manual/installation/install#installing_frontend
+
 Dando tudo certo, só será necessário preencher a senha.
 ### Acesso
 login: Admin
