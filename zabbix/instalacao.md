@@ -18,7 +18,9 @@ sudo apt -y install zabbix-server-mysql zabbix-frontend-php zabbix-agent
 sudo mysql -u root -p
 
 mysql> create database zabbix character set utf8 collate utf8_bin;
+
 mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'crie uma senha';
+
 mysql> quit;
 
 # Importa esquema and dados iniciais. será necessário usar a senha criada anteriormente.
