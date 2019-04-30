@@ -23,7 +23,7 @@ mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'crie 
 
 mysql> quit;
 
-### Importa esquema and dados iniciais. será necessário usar a senha criada anteriormente.
+### Importar esquema e dados iniciais. Será necessário usar a senha criada anteriormente.
 zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
 
 ## Etapa 6: Configurar a base de dados para o Zabbix server
