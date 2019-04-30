@@ -57,6 +57,7 @@ https://www.zabbix.com/documentation/4.2/manual/installation/install#installing_
 Dando tudo certo, só será necessário preencher a senha.
 ### Acesso
 login: Admin
+
 senha: zabbix
 
 ## Fontes
