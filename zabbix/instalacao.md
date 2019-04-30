@@ -1,4 +1,4 @@
-### Passos para Instalação do Zabbix 4.2 no Ubunto 16.04
+# Passos para Instalação do Zabbix 4.2 no Ubunto 16.04
 
 ## Etapa 1: Atualizar o sistema
 sudo apt-get update
@@ -23,13 +23,13 @@ mysql> grant all privileges on zabbix.* to zabbix@localhost identified by 'crie 
 
 mysql> quit;
 
-# Importa esquema and dados iniciais. será necessário usar a senha criada anteriormente.
+### Importa esquema and dados iniciais. será necessário usar a senha criada anteriormente.
 zcat /usr/share/doc/zabbix-server-mysql*/create.sql.gz | mysql -uzabbix -p zabbix
 
 ## Etapa 6: Configurar a base de dados para o Zabbix server
 sudo nano /etc/zabbix/zabbix_server.conf
 
-# Alterar o seguinte item 
+### Alterar o seguinte item 
 DBPassword=adiciona a senha
 
 ## Etapa 7: Reiniciar o serviço
@@ -40,7 +40,7 @@ service zabbix-server restart
 ## Etapa 8: Configurar PHP para Zabbix frontend
 sudo nano /etc/zabbix/apache.conf
 
-# Descomentar e adicionar o timezone nos dois campos presentes no arquivo
+### Descomentar e adicionar o timezone nos dois campos presentes no arquivo
 php_value date.timezone America/Sao_paulo
 
 ## Etapa 9: Iniciar o Zabbix server and agent processes
@@ -48,14 +48,14 @@ systemctl restart zabbix-server zabbix-agent apache2
 sudo systemctl enable zabbix-server zabbix-agent apache2
 
 ## Etapa10: Configurar o Zabbix frontend
-# Anotar o ip do servidor
+### Anotar o ip do servidor
 ifconfig
-# Abrir o navegador e digitar
+### Abrir o navegador e digitar
 http://ip anotado/zabbix
-# seguir o tutorial
+### seguir o tutorial
 https://www.zabbix.com/documentation/4.2/manual/installation/install#installing_frontend
 Dando tudo certo, só será necessário preencher a senha.
-# Acesso
+### Acesso
 login: Admin
 senha: zabbix
 
