@@ -1,0 +1,22 @@
+# Monitorar Temperatura e sensação térmica de Campinas-SP
+
+## Instalar aplicação linx
+sudo apt-get install lynx
+
+## Mostrar Temperatura e Sensação Térmica apresentada no site usando a aplicação lins
+lynx -dump https://www.sensacaotermica.com.br/campinas-sp/ | grep Temperatura: | sed 's/º//g' | awk '{print $2}'
+lynx -dump https://www.sensacaotermica.com.br/campinas-sp/ | grep Térmica: | sed 's/º//g' | awk '{print $3}'
+
+## Editar Configuração do Zabbix Agent
+sudo nano /etc/zabbix/zabbix_agentd.conf
+
+### Editar a opção Parametro de usuário (Option: UserParameter)
+
+UserParameter=Temperatura,lynx -dump https://www.sensacaotermica.com.br/campinas-sp/ | grep Temperatura: | sed 's/º//g' | awk '{print $2}'
+
+UserParameter=Sensacao,lynx -dump https://www.sensacaotermica.com.br/campinas-sp/ | grep Térmica: | sed 's/º//g' | awk '{print $3}'
+
+## Reiniciar o Zabbix Agent
+
+/etc/init.d/zabbix-agent restart
+
