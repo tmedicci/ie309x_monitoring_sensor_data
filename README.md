@@ -72,27 +72,25 @@ O cronograma compreende as seguintes etapas do desenvolvimento:
 * II. Determinação das informações para tomada de decisão.
 * III. Desenvolvimento da IHM.
 * IV. Criação de Registro e Histórico de informação.
-* V. Adição de elementos de comparação e previsão de dados.
-* VI. Implementação no hardware Raspberry Pi.
-* VII. Desenvolvimento do gateway IoT (objetivo secundário).
-* VIII. Aquisição de dados reais (objetivo extra).
-* IX. Teste Final e Documentação
-* X. Apresentação.
+* V. Implementação no hardware Raspberry Pi.
+* VI. Desenvolvimento do gateway IoT (objetivo secundário).
+* VII. Aquisição de dados reais (objetivo extra).
+* VIII. Teste Final e Documentação.
+* IX. Apresentação.
 
 Tabela 1 - Cronograma conforme as quintas-feiras úteis do período letivo.
 
 |      | 28/03 | 04/04 | 11/04 | 25/04 | 02/05 | 09/05 | 16/05 | 23/05 | 30/05 | 06/06 | 13/06 | 27/06 |
 |------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| I    |   X   |   X   |   X   |       |       |       |       |       |       |       |       |       |
-| II   |   X   |   X   |   X   |   X   |       |       |       |       |       |       |       |       |
-| III  |       |   X   |   X   |   X   |   X   |       |       |       |       |       |       |       |
-| IV   |       |       |       |   X   |   X   |   X   |       |       |       |       |       |       |
-| V    |       |       |       |       |   X   |   X   |   X   |   X   |       |       |       |       |
-| VI   |       |       |       |       |       |   X   |   X   |   X   |   X   |   X   |       |       |
-| VII  |       |       |       |       |       |       |       |   X   |   X   |   X   |       |       |
-| VIII |       |       |       |       |       |       |       |       |       |   X   |   X   |       |
-| IX   |       |       |       |       |       |       |       |       |       |       |   X   |   X   |
-| X    |       |       |       |       |       |       |       |       |       |       |       |   X   |
+| I    |   XX  |   XX  |   XX  |   XX  |   XX  |   X   |   X   |       |       |       |       |       |
+| II   |   XX  |   XX  |   XX  |   XX  |   XX  |   X   |   X   |       |       |       |       |       |
+| III  |       |   XX  |   XX  |   XX  |   XX  |   X   |   X   |   X   |   X   |       |       |       |
+| IV   |       |       |       |   XX  |   XX  |   X   |   X   |   X   |   X   |   X   |       |       |
+| V    |       |       |       |       |       |   X   |   X   |   X   |   X   |   X   |   X   |       |
+| VI   |       |       |       |       |       |       |       |   X   |   X   |   X   |   X   |       |
+| VII  |       |       |       |       |       |       |       |       |       |   X   |   X   |       |
+| VIII |       |       |       |       |       |       |       |       |       |       |   X   |   X   |
+| IX   |       |       |       |       |       |       |       |       |       |       |       |   X   |
 
 X: Planejado.
 
