@@ -7,8 +7,11 @@ nano contador.sh
 
 ### escrever o seguinte codigo
 \#! /bin/bash
+
 segundos=`date +%s`
+
 tempo=`date -d @$segundos +%M.%S`
+
 echo "$tempo"
 
 ### estabelecer permissões
