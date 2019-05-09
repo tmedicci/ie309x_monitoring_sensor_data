@@ -1,6 +1,6 @@
 # Medir o minuto e segundo
 
-## Fazer Script para informar o tempo HHMMSS
+## Fazer Script para informar o tempo MM.SS
 cd /usr/lib/zabbix/externalscripts
 
 nano contador.sh
