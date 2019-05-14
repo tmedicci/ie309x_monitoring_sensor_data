@@ -4,3 +4,6 @@
 [submodule "Prometheus/prometheus_tutorial"]
 	path = Prometheus/prometheus_tutorial
 	url = https://github.com/evandroferreiras/prometheus_tutorial.git
+[submodule "emoncms-raspberry"]
+	path = emoncms-raspberry
+	url = https://github.com/tmedicci/emoncms-raspberry.git
