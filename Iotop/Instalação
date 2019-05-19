@@ -14,6 +14,8 @@ Monitoramento de Espaço em Disco (Escrita/Leitura) no Linux
 
    sudo iotop 
 
+![monitoramento_escrita] (https://user-images.githubusercontent.com/50144733/57976562-93608e00-79b9-11e9-8da6-3646d552d901.png)
+
 4. Especificação do número de coletas de leitura e escrita em disco
 
     sudo iotop --only --iter=4 >> /tmp/iotop.log  
