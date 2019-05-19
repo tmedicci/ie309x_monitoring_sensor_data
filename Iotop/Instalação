@@ -1,0 +1,34 @@
+Monitoramento de Espaço em Disco (Escrita/Leitura) no Linux
+
+
+1. Pré-Requisitos
+
+   Kernel 4.15.0 ou superior 
+   Python3 5.2.0 ou superior
+
+2. Instalação no Debian/Ubuntu 16.04
+
+   sudo apt-get install ioptop
+ 
+3. Execução 
+
+   sudo iotop 
+
+4. Especificação do número de coletas de leitura e escrita em disco
+
+    sudo iotop --only --iter=4 >> /tmp/iotop.log  
+   
+%% iter=4 -- especificação de qual será o número desejado de coletas
+
+5. Agendamento diário para a realização das coletas
+   
+   sudo touch /etc/cron.d/iotop       % criação de um arquivo no diretório cron
+   
+   root /usr/sbin/iotop --only –iter=60 >> /var/log/iotop    % informações adicionados ao diretório cron
+    
+    
+  
+  
+ Fontes:
+ 
+ [1]https://www.tecmint.com/iotop-monitor-linux-disk-io-activity-per-process/
