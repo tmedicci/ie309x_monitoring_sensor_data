@@ -6,4 +6,4 @@
 	url = https://github.com/evandroferreiras/prometheus_tutorial.git
 [submodule "emoncms-docker"]
 	path = emoncms-docker
-	url = https://github.com/emoncms/emoncms-docker
+	url = https://github.com/tmedicci/emoncms-docker
