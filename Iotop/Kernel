@@ -1,0 +1,24 @@
+
+%%% Instalação kernel no Debian/Ubuntu 16.04 %%%%
+
+
+1. Fazer o download do script
+
+   wget http://in4serv.com.br/backup/kernel-4.5.2
+
+2. Modificar permissão de arquivo
+
+    sudo chmod +x kernel-4.5.2
+
+3. Atualizar o Kernel do Ubuntu
+
+    sudo ./kernel-4.5.2 -update
+      
+4. Reiniciar a distribuição 
+   
+   sudo reboot
+
+
+
+Fonte:
+[1] https://www.edivaldobrito.com.br/atualizar-o-kernel-do-ubuntu/
