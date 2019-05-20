@@ -1,0 +1,52 @@
+
+%% Anaconda Distribuion
+%% Anaconda is an open-source package manager, environment manager, and distribution of the Python and R programming languages
+%% For more information, please read the official Anaconda Documentation at https://www.anaconda.com/distribution/
+
+
+Passos de instalação 
+
+1. Pré-Requisito
+   
+   Ubuntu 16.04 ( ou superior)
+   
+2. Acessar o repositório (link abaixo) e escolha a versão a ser instalada
+   
+   https://repo.continuum.io/archive/
+   
+3. No prompt de comando, acessar o diretório temporário
+
+   sudo cd /tmp
+    
+4. Copiar e baixar o instalador do repositório oficial do Anaconda:
+   
+   curl -O https://repo.continuum.io/archive 
+   
+   %% clicar na versão desejada para efetuar o download do pacote
+   
+5. Após a conclusão do download, verifique a integridade dos pacotes:
+   
+   sha256sum Anaconda3-5.2.0-Linux-x86_64.sh
+   
+   %% mensagem sem erro, prossiga para o próximo passo da instalação
+   
+6. Executar instalação 
+   
+   bash Anaconda3-5.2.0-Linux-x86_64.sh
+   
+   %% Após a execução desse comando, aparecerá a tela de configuração do Anaconda.  
+   %% Assine os termos de licença, e, aperte Enter para continuar. 
+   %% Em seguida, defina o local de instalação do Anaconda Python deve ser instalado no sistema Ubuntu. 
+   %% Localização padrão: diretório HOME. Em seguida, pressione ENTER para confirmar a instalação no diretório padrão ou defina manualmente um novo diretório
+   %% Depois da instalação, será solicitado a inclusão da localização Python Anaconda no caminho Ubuntu 16.04. Digite Yes e aperte Enter.
+   %% Ao final, será solicitado a instalação do Visual Studio Code. 
+   %% Caso tenha interesse em sua instalação, digite Yes e pressione Enter. Caso contrário, digite No e complete a instalação.
+
+7. Verifique se a versão desejada foi instalada
+
+   python -V  or conda list
+
+
+Fonte:
+[1] https://medium.com/@menuram1126/how-to-install-anaconda-on-ubuntu-16-04-538009ca7936
+
