@@ -3,7 +3,7 @@
 	url = https://github.com/prometheus/client_golang.git
 [submodule "Prometheus/prometheus_tutorial"]
 	path = Prometheus/prometheus_tutorial
-	url = https://github.com/evandroferreiras/prometheus_tutorial.git
+	url = https://github.com/tmedicci/prometheus_tutorial.git
 [submodule "emoncms-docker"]
 	path = emoncms-docker
 	url = https://github.com/tmedicci/emoncms-docker
