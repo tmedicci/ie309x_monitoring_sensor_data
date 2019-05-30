@@ -7,3 +7,9 @@
 [submodule "emoncms-docker"]
 	path = emoncms-docker
 	url = https://github.com/tmedicci/emoncms-docker
+[submodule "emon/emoncms"]
+	path = emon/emoncms
+	url = git@github.com:tmedicci/emoncms.git
+[submodule "emon/emonpi"]
+	path = emon/emonpi
+	url = git@github.com:tmedicci/emonpi.git
